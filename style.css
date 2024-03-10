@@ -1,0 +1,48 @@
+:root {
+    --header-background-color : #4059c7;
+    --font-principal-color : #ffffff;
+    --navbar-background-color: #374786;
+    --background-footer-color : #181d33;
+    --bacground-card-dolor : #374786;
+    --background-main-color : #667ac8;
+    /* medida universal calc((100vh /100) * n) */
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--font-principal-color);
+    /* font-size: 10px; */
+}
+.container {
+    width: calc((100vw /100) * 100); /* 1349px */
+    min-height: 100vh; /* 599px */
+    background-color: var(--background-main-color);
+}
+.header {
+    position: relative;
+    width: 100%; /* 1349px */
+    height: calc((100vh /100) * 20);
+    background-color: var(--header-background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.principal-container {
+    width: auto;
+    margin: calc((100vh /100) * 7) calc((100vh /100) * 12);
+    text-align: justify;
+}
+.title {
+    font-size: calc((100vh /100) * 10);
+}
+h2{
+    font-size: calc((100vh /100) * 7);
+}
+.texto {
+    font-size: calc((100vh /100) * 5);
+}
+p {
+    font-size: calc((100vh /100) * 4);
+}
