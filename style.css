@@ -39,6 +39,7 @@
 }
 h2{
     font-size: calc((100vh /100) * 7);
+    text-align: center;
 }
 .texto {
     font-size: calc((100vh /100) * 5);
